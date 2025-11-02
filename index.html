@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Razorpay</title>
     <link rel="stylesheet" href="main.css">
+    <script src="https://unpkg.com/feather"></script>
 </head>
 <body>
 
@@ -91,5 +92,93 @@
             class="w-full object-fill">
         </div>
     </section>
+
+    <!--Feature section-->
+    <section class="relative mt-[190px] overflow-hidden">
+        <img src="./images/feature-section1-dottedrows.png" alt="feature-section1-dottedrows"
+         width="233"
+         height="167"
+        class="absolute -top-[8rem] left-[10rem] z-10 inline-block">
+        
+        <img src="./images/feature-section1-dottedrows.png" alt="feature-section1-dottedrows"
+         width="233"
+         height="167"
+         class="absolute top-[3rem] right-0 z-10 rotate-180 inline-block ">
+
+         <div class="relative  max-w-[1080px] w-10/12 m-auto pt-4">
+            <!--heading-->
+            <h2 class="font-mullish font-extrabold text-2xl text-center leading-[1.2]">
+                Accept Payments with Razorpay Payment Suite
+
+            </h2>
+             <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6 "></div>
+
+            <!--content-box-->
+            <div class="relative w-full min-h-[520px] bg-white flex border rounded-md p-10 py-12">
+                <!--left part-->
+                <div class="flex flex-col justify-between w-full">
+                    <h3 class="font-mullish font-bold text-[28px] leading-10 max-w-[500px]">
+                        Supercharge your business with the all-powerful <span class="text-lightBlue">Payment Gateway</span>
+                    </h3>
+
+                    <ul class="space-y-2">
+                        <li class="font-mullish flex items-center space-x-2">
+                            <i data-feather="check" class="text-greenLight"></i>
+                            <span>100+ Payment Methods</span>
+                        </li>
+                         <li class="font-mullish flex items-center space-x-2">
+                            <i data-feather="check" class="text-greenLight"></i>
+                            <span>Industry Leading Success Rate</span>
+                        </li>
+                         <li class="font-mullish flex items-center space-x-2">
+                            <i data-feather="check" class="text-greenLight"></i>
+                            <span>Superior Checkout Experience</span>
+                        </li>
+                         <li class="font-mullish flex items-center space-x-2">
+                            <i data-feather="check" class="text-greenLight"></i>
+                            <span>Easy to Integrate</span>
+                        </li>
+                         <li class="font-mullish flex items-center space-x-2">
+                            <i data-feather="check" class="text-greenLight"></i>
+                            <span>Instant Settlements from day 1</span>
+                        </li>
+                         <li class="font-mullish flex items-center space-x-2">
+                            <i data-feather="check" class="text-greenLight"></i>
+                            <span>In-depth Reporting and Insights</span>
+                        </li>
+                    </ul>
+
+                    <!--button and hyperlink-->
+                    <div class="flex items-center ">
+                        <button class="bg-lightBlue text-white py-[14px] px-[18px] rounded-md font-bold font-mullish
+                hover:bg-lightBlue500">
+                    Sign Up Now
+                </button>
+                
+                <!--hyperlink-->
+                <div class="flex items center cursor-pointer group">
+                    <a href="#"
+                    class="font-mullish font-bold text-lightBlue500
+                    group-hover:text-grayBlue translate-x-0 duration-200">
+                        Know More
+                    </a>
+                    <i data-feather="chevron-right"
+                    class="w-5 h-5 text-lightBlue500"></i>
+                </div>
+                    </div>
+                </div>
+
+                <!--right part-->
+                <img src="./images/payment-suite.png" alt=""
+                class="w-o mx-w-[600px] absolute right-0 bottom-0 ">
+            </div>
+         </div>
+    </section>
+
+
+
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>
